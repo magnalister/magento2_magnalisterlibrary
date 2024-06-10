@@ -1,0 +1,2 @@
+<?php
+MLDatabase::factory('errorlog');

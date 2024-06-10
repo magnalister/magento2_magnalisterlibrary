@@ -1,0 +1,48 @@
+<?php
+/*
+ * 888888ba                 dP  .88888.                    dP
+ * 88    `8b                88 d8'   `88                   88
+ * 88aaaa8P' .d8888b. .d888b88 88        .d8888b. .d8888b. 88  .dP  .d8888b.
+ * 88   `8b. 88ooood8 88'  `88 88   YP88 88ooood8 88'  `"" 88888"   88'  `88
+ * 88     88 88.  ... 88.  .88 Y8.   .88 88.  ... 88.  ... 88  `8b. 88.  .88
+ * dP     dP `88888P' `88888P8  `88888'  `88888P' `88888P' dP   `YP `88888P'
+ *
+ *                          m a g n a l i s t e r
+ *                                      boost your Online-Shop
+ *
+ * -----------------------------------------------------------------------------
+ * (c) 2010 - 2022 RedGecko GmbH -- http://www.redgecko.de
+ *     Released under the MIT License (Expat)
+ * -----------------------------------------------------------------------------
+ */
+/** @var $this ML_Form_Controller_Widget_Form_ConfigAbstract */
+ if (!class_exists('ML', false))
+     throw new Exception();
+
+$defaults = array(
+  'inventoryholdperiod' => array('value' => 5, 'timeUnit' => 'Days'),
+  'handlingtime'        => array('value' => 90, 'timeUnit' => 'Minutes')
+);
+
+$currentField = $aField;
+$currentFieldParts = explode('.', $currentField['realname']);
+$currentFieldRealNameLastPart = end($currentFieldParts);
+$currentField['type'] = 'subFieldsContainer';
+$currentField['incolumn'] = true;
+$currentField['subfields'] = array(
+    array(
+        'name' => $currentField['realname'].'.value',
+        'type' => 'string',
+        'default' => $defaults[$currentFieldRealNameLastPart]['value']
+    ),
+    array(
+        'name' => $currentField['realname'].'.timeUnit',
+        'type' => 'select',
+        'default' => $defaults[$currentFieldRealNameLastPart]['timeUnit']
+    ),
+);
+foreach ($currentField['subfields'] as &$aSubfield) {
+    $aSubfield = $this->getField($aSubfield);
+}
+
+$this->includeType($currentField);

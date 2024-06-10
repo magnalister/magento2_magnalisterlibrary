@@ -1,0 +1,277 @@
+/**
+ * 888888ba                 dP  .88888.                    dP                
+ * 88    `8b                88 d8'   `88                   88                
+ * 88aaaa8P' .d8888b. .d888b88 88        .d8888b. .d8888b. 88  .dP  .d8888b. 
+ * 88   `8b. 88ooood8 88'  `88 88   YP88 88ooood8 88'  `"" 88888"   88'  `88 
+ * 88     88 88.  ... 88.  .88 Y8.   .88 88.  ... 88.  ... 88  `8b. 88.  .88 
+ * dP     dP `88888P' `88888P8  `88888'  `88888P' `88888P' dP   `YP `88888P' 
+ *
+ *                          m a g n a l i s t e r
+ *                                      boost your Online-Shop
+ *
+ * -----------------------------------------------------------------------------
+ * $Id$
+ *
+ * (c) 2010 RedGecko GmbH -- http://www.redgecko.de
+ *     Released under the GNU General Public License v2 or later
+ * -----------------------------------------------------------------------------
+ */
+
+.magnamain .mlbtn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: none;
+    background-color: #e9e9ed;
+    background-repeat: repeat-x;
+    /*border-color: #fff;*/
+    border-color: #dadada;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);*/
+    color: #333333 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    margin-bottom: 0;
+    padding: 12px 18px;
+    text-align: center;
+    /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
+    vertical-align: middle;
+    text-decoration: none;
+}
+.magnamain table.attributesTable > tbody > tr > td > button[type="button"] {
+    margin-right: -14px;
+}
+/*.magnamain span button[type="button"].mlbtn {
+    margin-top: 2px;
+    margin-left: -10px;
+}*/
+.magnamain span button[type="button"].mlbtn.fullfont {
+    margin-left: 0px;
+    margin-top: -6px;
+}
+
+.magnamain span button[type="button"].mlbtn.mlbtnMinus,
+.magnamain span button[type="button"].mlbtn.mlbtnPlus {
+    padding: 12px 18px;
+}
+.magnamain span button[type="button"].mlbtn.mlbtnPlus {
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+
+.magnamain #amazon_config_orderimport_field_orderstatus_shipmethod_duplicate_duplicate span button[type="button"].mlbtn.fullfont {
+    margin-top: 3px;
+    margin-left: unset;
+}
+.magnamain #amazon_config_orderimport_field_orderstatus_shippedaddress_duplicate span button[type="button"].mlbtn.fullfont {
+    margin-top: 4px;
+}
+
+.magnamain input.mlbtn:not(:last-child).mlbtn-md {
+    background-color: #dadada;
+    height: 42px;
+    padding: 12px 18px;
+}
+.nobootstrap .magnamain input.mlbtn.mlbtn-md {
+    background-color: #e9e9e9;
+    height: 41px;
+    margin-top: 4px;
+}
+.nobootstrap .magnamain input.mlbtn.mlbtn-md:hover {
+    text-decoration: none;
+    background: #d0d0d7;
+}
+
+.magnamain .mlbtn.mlbtnMinus {
+    padding: 10px 18px 14px 18px;
+}
+.magnamain .mlbtn-md {
+    width: 200px;
+}
+
+input[type="submit"].mlbtn,
+a.mlbtn {
+    margin: 0px 0px 4px 3px;
+}
+
+.actionBottom > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > form:nth-child(1) > input:nth-child(2)
+{
+    margin-top: 20px;
+}
+/*form#amazon_prepare_apply_form.magnalisterForm table.attributesTable tbody#amazon_prepare_apply_form_fieldset_action tr.action td:nth-child(1) {
+    padding: 20px;
+}*/
+.ml-form-action-left > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
+{
+    padding: 0px !important;
+}
+.ml-form-action-left {
+    padding: 0px !important;
+}
+.ml-form-action-right > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    padding: 0px !important;
+}
+html body.jqueryui.magna.mac.shopware div.magna table#tableWrap tbody tr td div.magnamain div.magnamain div#content.magnamain div.magnamain div.ml-plist.amazon table.actions tbody.firstChild tr td div.actionBottom div.left div form input.mlbtn:nth-child(2) {
+    margin-top: 20px;
+}
+
+.ml-form-action-left
+.mlbtn:hover,
+.mlbtn:active,
+.mlbtn.active,
+.mlbtn.disabled {
+    background-color: #666666;
+    color: #ffffff !important;
+    border-color: #666666;
+    text-shadow: none;
+}
+
+.mlbtn:hover {
+    text-decoration: none;
+    background: #d0d0d7;
+}
+
+.mlbtn:focus {
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+
+.mlbtn.disabled,
+.mlbtn[disabled] {
+    background-color: #e6e6e6;
+    background-image: none;
+    box-shadow: none;
+    cursor: default;
+    /*opacity: 0.65;*/
+    opacity: 0.45;
+    color: #999 !important;
+}
+
+.mlbtn.action {
+    background-color: #e31a1c;
+    color: #ffffff !important;
+    text-shadow: none;
+    border-color: #e31a1c;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    padding: 10px 12px;
+    margin-top: 1px;
+}
+.topControls .mlbtn.action {
+    margin-top: 0px;
+}
+td.input button.mlbtn.action {
+    width: 39px;
+}
+.mlbtn.action.text {
+    font-size: 13px;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.mlbtn.maxwidth {
+    width: 100%;
+}
+
+
+.mlbtn.action:hover,
+.mlbtn.action:active,
+.mlbtn.action.active,
+.mlbtn.action.disabled,
+.mlbtn.action[disabled] {
+    background-color: #666666;
+    border-color: #666666;
+}
+.mlbtn.fullfont {
+    font-size: 17px;
+}
+.mlbtn.js-amazon-upload,
+.mlbtn.js-ebay-upload {
+    width: 222px;
+}
+
+div.newSearch {
+    font-size: 0;
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 0px;
+  /*  margin-bottom: 4px;*/
+    vertical-align: top;
+}
+table.topControls div.newSearch {
+    margin-bottom: 5px;
+}
+div.filterWrapper div.newSearch input[type="text"] {
+    width: 160px;
+    height: 37px;
+}
+div.filterWrapper div.newSearch input[type="text"]:focus {
+    height: 35px;
+}
+.ml-container-inner div.newSearch input[type="text"] {
+    width: 300px;
+    height: 37px;
+}
+div.newSearch button.mlbtn {
+    vertical-align: top;
+    margin-left: -1px;
+    margin-top: 0px;
+    padding: 14px 8px;
+}
+
+.ml-container-inner div.newSearch button.mlbtn {
+    height: 43px;
+    padding: 2px 8px;
+    width: 43px;
+}
+div.newSearch button {
+    position: relative;
+    width: 39px;
+}
+div.newSearch button span {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4NCjxnPg0KCTxjaXJjbGUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2NjY2IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9IjUuNjg2IiBjeT0iNC43OTYiIHI9IjQuMiIvPg0KCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzY2NjY2NiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSI4LjM2OCIgeTE9IjguMDIxIiB4Mj0iMTEuNTgzIiB5Mj0iMTEuMjM3Ii8%2BDQo8L2c%2BDQo8L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    width: 13px;
+    height: 13px;
+    display: block;
+
+    position: relative;
+    left: 0;
+    top: 1px;
+
+    margin: 0 auto;
+}
+div.newSearch button.mlbtn.action span {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4NCjxnPg0KCTxjaXJjbGUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9IjUuNjg2IiBjeT0iNC43OTYiIHI9IjQuMiIvPg0KCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSI4LjM2OCIgeTE9IjguMDIxIiB4Mj0iMTEuNTgzIiB5Mj0iMTEuMjM3Ii8%2BDQo8L2c%2BDQo8L3N2Zz4=);
+}
+.mlbtn.action.add-matching {
+    display: none;
+}
+.ml-translate-toolbar-wrapper .mlbtn {
+    width: 100%;
+    min-height: 43px;
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 1249px){
+    .ml-container-inner div.newSearch input[type="text"] {
+        width: 138px;
+    }
+
+    .ml-container-inner div.newSearch input[type="text"]:focus {
+        border: 2px solid #a0a0a0;
+        height: 35px !important;
+        width: 136px !important;
+        box-shadow: unset;
+    }
+}

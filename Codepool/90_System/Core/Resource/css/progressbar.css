@@ -1,0 +1,46 @@
+/* Additional CSS for blockUIProgress */
+div.progressBarContainer {
+	height: 30px;
+	width: 100%;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 1.6em;
+	background: #E2DEDE;
+}
+div.progressBarContainer div.progressBar {
+	position: relative;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	width: 0;
+	transition-property: width;
+	background: #E31A1C;
+	color: #FFF;
+}
+div.progressBarContainer div.progressPercent {
+	position: relative;
+	left: 0;
+	top: -23px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+}
+div.progressBar span.progressDebug {
+	line-height: 15px;
+	font-size: 0.8em;
+	position: absolute;
+	left: 0.5em;
+	top: 0.1em;
+	overflow: visible;
+	white-space: nowrap;
+}

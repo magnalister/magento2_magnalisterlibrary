@@ -1,0 +1,8 @@
+#hood_config_prepare #noteVariationsEnabled>div , #hood_prepare_form #noteVariationsEnabled>div{margin:0;}
+#hood_config_prepare .hood-shipping , #hood_prepare_form .hood-shipping{display:flex;width:100%;}
+#hood_config_prepare .hood-shipping>* , #hood_prepare_form .hood-shipping>*{display:table-row;}
+#hood_config_prepare .hood-shipping>*>* , #hood_prepare_form .hood-shipping>*>*{display:table-cell;}
+#hood_config_prepare .hood-shipping>*>*.text , #hood_prepare_form .hood-shipping>*>*.text{padding-left:2em;padding-right:1em;text-align: right}
+#hood_config_prepare .shipping .profile ,#hood_prepare_form .shipping .profile{padding:.5em;}
+#hood_config_prepare .shipping .hood-shipping > div { width: 100%; display: flex; align-items: baseline}
+#hood_config_prepare .shipping .hood-shipping > div .type, #hood_config_prepare .shipping .hood-shipping > div .cost { width: 46%; }

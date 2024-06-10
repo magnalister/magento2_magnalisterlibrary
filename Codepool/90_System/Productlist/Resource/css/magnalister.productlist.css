@@ -1,0 +1,730 @@
+.ml-plist {
+}
+
+.ml-plist .actionTop {
+    padding-right: 5px;
+}
+
+.ml-plist table.ml-plist-table {
+    width: 100%;
+    border: 1px solid #dadada;
+    border-spacing: 0;
+/*    margin-top: 28px;*/
+    margin-bottom: 28px;
+}
+.ml-plist > form > table.ml-plist-table {
+    margin-top: 18px;
+}
+.ml-plist table.ml-plist-table > thead > tr > th {
+    /*background: url("http://localhost:8888/shopware5/engine/Shopware/Plugins/Community/Backend/RedMagnalister/Lib/Codepool/90_System/Magnalister/Resource/images/header_bg.png")
+    #fff;*/
+    background-color: #dedede;
+    padding: 0.5em 1.5em;
+    padding-right: 17px;
+}
+.ml-plist table.ml-plist-table > thead > tr > th[class] {
+    border-left: 1px solid white;
+}
+.ml-plist table.ml-plist-table > thead > tr > th.ml-plist-cell-priceShop,
+.ml-plist table.ml-plist-table > thead > tr > th.ml-plist-cell-simpleText,
+.ml-plist table.ml-plist-table > thead > tr > th.ml-plist-cell-priceMarketplace {
+    width: 220px;
+    min-width: 42px;
+}
+.ml-plist table.ml-plist-table > thead > tr > th.ml-plist-cell-product {
+    min-width: 32%;
+}
+.ml-plist table.ml-plist-table > thead > tr > th.ml-plist-cell-image {
+    width: 40px;
+}
+.ml-plist table.ml-plist-table > thead > tr > th[class]:first-child {
+    border-left: unset;
+}
+.ml-plist table tbody tr th div.name {
+    margin: 0px 0px 4px 0px;
+}
+.ml-plist-table tr:first-child {
+    height: 35px;
+}
+.ml-plist-table thead > tr {
+    height: 55px !important;
+}
+.ml-plist-table tbody.ml-shippinglabel-form.ml-shippinglabel-form-upload table.fullWidth table  * {
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+/*rows*/
+table.ml-plist-table > tbody > tr > *{
+    padding: 1.5em;
+}
+/*.ml-plist tbody.odd > tr > * {
+    background: #edeeef;
+    padding: 1.5em 1.5em;
+}
+.ml-plist tbody.even > tr > * {
+    background: #ffffff;
+    padding: 1.5em 1.5em;
+}*/
+.ml-plist tbody tr td.error {
+    padding-left: 18px;
+}
+.ml-plist table.ml-plist-table > tbody:hover {
+    /*outline: 1px solid black;*/
+}
+
+.ml-plist table > tbody > tr > th.cell-preparedType > table tbody > tr > td {
+    padding-left: 0px;
+}
+/*.nobootstrap label {
+    font-weight: normal !important;
+}*/
+/*.nobootstrap .ml-plist table > tbody > tr > td > label {
+    font-weight: normal;
+}*/
+.ml-plist table > tbody > tr > * {
+    font-weight: normal;
+}
+
+.ml-plist table > tbody > tr > td.textright {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ml-plist table > tbody > tr.message > * > div {
+    text-align: center;
+}
+.ml-plist table.variants {
+    width: 100%;
+}
+/*.ml-plist table > tbody > tr > th {
+    border-left: 1px solid green;
+}*/
+.ml-plist table > tbody > tr > th.switch,
+.ml-plist table > tbody > tr > th.no-switch,
+.ml-plist table > tbody > tr > th.switch a,
+.ml-plist table > tbody > tr > th.no-switch a {
+    vertical-align: top;
+    width: 0;
+    text-decoration: none;
+    color: inherit;
+    border-left: 0;
+}
+.ml-plist table > tbody > tr > th {
+    border-top: 1px solid #dadada;
+}
+.ml-plist table > tbody > tr > th.switch {
+    cursor: pointer;
+    padding-top: 26px;
+}
+
+.ml-plist .cell-magnalisterSelectionRow {
+    width: 0;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 18px;
+}
+.ml-plist tr.ml-h-separator td {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.ml-plist td.ml-hl-dotted {
+    border-bottom: 1px dotted gray;
+}
+.ml-plist .child > td.cell-magnalisterSelectionRow {
+    text-align: right;
+    padding-right: 0.5em;
+}
+.ml-plist table > tbody > tr > th.cell-magnalisterSelectionRow {
+    border-left: 0;
+}
+.ml-plist table > tbody > tr > th.cell-magnalisterSelectionRow input {
+    margin-top: 10px;
+    accent-color: #666;
+}
+.ml-plist div.ml-tablescroll table > tbody > tr > th.cell-magnalisterSelectionRow input {
+    margin-top: 33px !important;
+    accent-color: #666;
+    margin-left: 4px !important;
+}
+.ml-plist .cell-product > div {
+    position: relative;
+}
+.ml-plist .cell-product > div > .product-link {
+    position: absolute;
+    right: 6px;
+    width: 144px;
+    text-align: left;
+}
+.ml-plist tbody .cell-product > div > .product-link > a {
+    color: #666;
+}
+.ml-plist tbody .cell-product > div > .product-link > a > span {
+    background: #fff;
+    opacity: 0.9;
+}
+.ml-plist .notMatch .ml-warning {
+    background: url("../images/info_tooltip.png") no-repeat scroll 0 0;
+    right: 7px;
+    top: 7px;
+    position: inherit;
+}
+.ml-plist .cell-product .ml-warning {
+    background: url("../images/info_tooltip.png") no-repeat scroll 0 0;
+    right: 7px;
+    top: 7px;
+    position: absolute;
+}
+.ml-plist .cell-product div.warning-wrapper {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
+.ml-plist .cell-product div.warning-wrapper .ml-warning {
+    position: relative;
+    top: 0;
+    right: 0;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ml-plist .cell-image {
+    text-align: center;
+    width: 0;
+}
+
+.ml-plist .cell-image > div > img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.ml-plist .cell-image > div {
+    width: 40px;
+    height: 40px;
+    /*border:1px solid silver;*/
+    line-height: 40px;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+.ml-plist .cell-image > div > div {
+    transform: rotate(315deg);
+}
+.ml-plist .cell-quantityMarketplace,
+.ml-plist .cell-priceShop,
+.ml-plist .cell-simpleText,
+.ml-plist .cell-priceMarketplace {
+    text-align: right;
+}
+.ml-plist .cell-priceMarketplace {
+    padding-right: 16px;
+}
+.ml-plist .cell-priceShop .price,
+.ml-plist .cell-priceMarketplace .price {
+    margin-right: -6px;
+}
+.ml-plist tr.main th.cell-preparedType td.statusGreen {
+    vertical-align: middle;
+}
+
+.ml-plist tr.main th.cell-preparedStatus table {
+    margin: auto;
+}
+.ml-plist tr.main th.cell-preparedStatus div,
+.ml-plist tr.main th.cell-preparedType div.statusGreen {
+    border-radius: 5px;
+    color: white;
+    height: 10px;
+    margin: auto;
+    width: 10px;
+}
+.ml-plist tr.child td.cell-preparedStatus div {
+    border-radius: 5px;
+    color: white;
+    height: 10px;
+    margin: auto;
+    width: 10px;
+}
+
+.ml-plist .cell-preparedStatus {
+    width: 0;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.ml-plist .cell-preparedStatus .statusGray {
+    background-image: linear-gradient(to bottom, #bdbdbd, #5b5b5b);
+}
+
+.ml-plist .cell-preparedStatus .statusGreen,
+.ml-plist .cell-preparedType div.statusGreen {
+    background-image: linear-gradient(to bottom, #00f1ba, #00d768);
+}
+
+.ml-plist .cell-preparedStatus .statusRed {
+    background-image: linear-gradient(to bottom, #ff6d00, #e31a1c);
+}
+
+.ml-plist .cell-preparedStatus .statusOrange {
+    background-image: linear-gradient(to bottom, #ffa200, #ff6d00);
+}
+
+.ml-plist .pagination_bar {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+   /* background: none repeat scroll 0 0 #f6f7f8;*/
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    padding: 6px 7px 6px 14px;
+    margin-bottom: 28px;
+    margin-top: 9px;
+}
+.ml-plist .pagination_bar input {
+    font-size: 12px;
+    background: #e9e9ed;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    width:40px;
+    height: 30px;
+}
+
+.listingInfo .textright input:hover:not(.space, .ml-active),
+.listingInfo .textright button:hover:not(.space, .ml-active),
+.ml-plist .pagination_bar input:hover:not(.space, .ml-active) {
+    background: #f4f4f4 !important;
+}
+
+.ml-plist .pagination_bar div {
+    font-size: 13px;
+}
+.ml-plist .pagination_bar div input.noButton[disabled] {
+    font-weight: bolder;
+}
+
+.ml-plist .pagination_bar div span {
+    margin-left: 4px;
+}
+
+.listingInfo input.ml-pagButton.ml-active,
+.ml-plist .pagination_bar input.ml-pagButton.ml-active {
+    border:1px solid #440f0f !important;
+    cursor: default !important;
+    color: #000;
+    font-weight: 500;
+}
+
+.listingInfo input.ml-pagButton.space {
+    cursor: default !important;
+}
+
+.listingInfo input.ml-pagButton.space:focus-visible {
+    border: none;
+}
+
+.ml-plist .pagination_bar input.ml-pagButton.space {
+    cursor: default;
+}
+
+.listingInfo input.ml-pagButton,
+.listingInfo button.ml-pagButton,
+.ml-plist .pagination_bar input.ml-pagButton {
+    margin: 0;
+    background: unset;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.ml-plist .pagination_bar input.ml-pagButton.space:focus,
+.ml-plist .pagination_bar input.ml-pagButton.space:focus-visible {
+    border-top: 1px solid #dedede !important;
+    border-bottom: 1px solid #dedede !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.listingInfo button.ml-pagButton.ml-leftArrow,
+.ml-plist .pagination_bar #paginationBox form:first-of-type input.ml-pagButton{
+    border: 1px solid #dedede;
+    border-right-style: dotted;
+}
+.listingInfo button.ml-pagButton.ml-rightArrow,
+.ml-plist .pagination_bar #paginationBox form:last-of-type input.ml-pagButton {
+    border: 1px solid #dedede;
+    border-left-style: dotted;
+}
+
+.ml-plist input[type="text"] {
+    height: 30px;
+    line-height: 17px;
+}
+
+.ml-plist select,
+.ml-plist input[type="text"] {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    font-size: 13px;
+    padding: 2px 2px 2px 13px;
+}
+.ml-plist input[type="text"]:focus-visible {
+    outline: initial;
+}
+.ml-plist input[type="text"]:focus {
+    border: 2px solid #a0a0a0;
+    height: 35px !important;
+    box-shadow: unset;
+    outline: none;
+}
+.ml-plist select {
+    height: 36px;
+    line-height: 23px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*background: url("../images/dropdown_arrow.png") 96% / 15% no-repeat;
+    background-size: 16px;*/
+    background: url("../images/dropdown_arrow.png") no-repeat;
+    background-position: calc(100% - 13px) 15px;
+}
+
+.ml-plist .actionBottom {
+    padding: 13px 8px;
+}
+
+.ml-plist.ebay .actionBottom .left .mlbtn {
+    min-width: 346px;
+}
+.ml-plist.ebay .actionBottom .right .mlbtn {
+    /* min-width: 230px; */
+}
+
+.ml-plist table.actions {
+    border-spacing: 0;
+}
+
+.ml-plist dev.filterWrapper button,
+.ml-plist dev.filterWrapper input,
+.ml-plist dev.filterWrapper select,
+.ml-plist dev.filterWrapper textarea {
+    margin: 0;
+}
+.ml-plist dev.filterWrapper select,
+.ml-plist dev.filterWrapper input[type="text"] {
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
+
+    padding: 2px 2px 2px 4px;
+
+    font-size: 12px;
+
+    line-height: 17px;
+    height: 17px;
+    background-color: #f9f9f9;
+}
+.ml-plist dev.filterWrapper select {
+    line-height: 23px;
+    height: 23px;
+
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2) inset, 1px 1px 3px -1px #fff inset;
+}
+.ml-plist dev.filterWrapper input[type="text"] {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) inset,
+    -1px -1px 3px -1px #fff inset;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.ml-plist dev.filterWrapper select:focus,
+.ml-plist dev.filterWrapper input[type="text"]:focus {
+    background-color: #fff;
+    border-color: rgba(82, 168, 236, 0.8);
+}
+
+.ml-plist table.topControls {
+    margin-bottom: -4px;
+}
+.ml-plist table.topControls select,
+.ml-plist table.topControls #editTemplates {
+    margin-bottom: 4px;
+    height: 43px;
+}
+.ml-plist table.topControls td.filterLeft {
+    padding-left: 8px;
+}
+.ml-plist table.topControls td.filterRight div.filterWrapper {
+    text-align: right;
+}
+.ml-plist table.topControls td.filterRight .filter,
+.ml-plist table.topControls td.filterRight select {
+    display: inline-block;
+    width: 250px;
+    height: 43px;
+    vertical-align: 1px;
+    margin-left: 5px;
+    padding-left: 13px;
+}
+.ml-plist table.topControls td.filterRight select {
+    margin-bottom: 5px;
+}
+.ml-plist table.topControls td.filterRight select:hover {
+    cursor: pointer;
+}
+.ml-plist table.topControls td.filterRight select option:hover {
+    background-color: red;
+}
+.ml-plist table.topControls td.filterRight .filter:last-of-type,
+.ml-plist table.topControls td.filterRight select:last-of-type {
+    margin-right: 0px;
+}
+.ml-plist .noButton.arrowDesc {
+    background: url("../images/arrows.png") 0 0;
+    width: 20px;
+    height: 17px;
+    text-indent: -9999px;
+}
+
+.ml-plist .noButton.arrowAsc {
+    background: url("../images/arrows.png") -20px 0;
+    width: 20px;
+    height: 17px;
+    text-indent: -9999px;
+}
+
+table.datagrid.ml-plist-old-fix > tbody > tr > td {
+    line-height: 18px;
+    padding-left: 16px;
+    padding-right: 10px;
+    border-bottom: 1px solid #dadada;
+}
+table.datagrid.ml-plist-old-fix > tbody > tr:hover > td {
+    border-bottom: 1px solid #dadada;
+    background: #e9e9ed;
+}
+/*.datagrid.ml-plist-old-fix tr:last-child td {
+    border-bottom: unset;
+}*/
+
+.datagrid.ml-plist-old-fix tr td .ml-plist {
+    display: inline;
+}
+
+.ml-container-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+    padding: 20px 16px;
+   /* background-color: #f6f7f8;*/
+    border: 1px solid #dadada;
+}
+.ml-container-action-head {
+    border: 1px solid #dadada;
+    border-bottom: unset;
+    padding: 14px 16px;
+    background-color: #dedede;
+}
+.ml-container-action-head h4{
+    padding-top: 0px;
+}
+
+/*.ml-container-inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}*/
+
+.ml-container-sm {
+    width: 175px;
+}
+
+.ml-container-md {
+    width: 250px;
+}
+
+.ml-container-wd {
+    width: 365px;
+}
+
+.ml-container-action .ml-container-inner .mlbtn-gray {
+    padding: 12px 0px;
+    width: 100%;
+    background-color: #e9e9ed;
+    border: 1px solid #dadada;
+    color: #333333 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    white-space: break-spaces;
+    word-wrap: break-word;
+}
+
+.ml-container-inner button.mlbtn-gray {
+    white-space: unset !important;
+}
+.ml-container-action .ml-container-inner .mlbtn-gray:hover {
+    background-color: #d0d0d7;
+}
+
+.ml-container-action .ml-container-inner .mlbtn-red {
+    padding: 12px 0px;
+    width: 100%;
+    background-color: #e31a1c;
+    border: 1px solid #dadada;
+    color: #ffffff !important;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    white-space: unset;
+}
+.ml-container-action .ml-container-inner .mlbtn-red:hover {
+    background-color: #666666;
+}
+.mlbtn-red:hover {
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.mlbtn-search {
+    width: 50px;
+}
+
+.ml-searchbox-size {
+    height: 37px;
+    padding-left: 9px !important;
+    margin-left: 20px;
+}
+thead tr td label,
+thead tr th label {
+    padding-left: 5px;
+    margin-right:4px;
+}
+.nobootstrap thead tr td label,
+.nobootstrap thead tr th label {
+    padding-left: 5px;
+    margin-right:4px;
+}
+
+tbody.ml-shippinglabel-form.ml-shippinglabel-form-upload tr {
+    height: 45px;
+}
+
+.magnamain table tbody tr th.cell-orderId img {
+    margin-right: 10px;
+}
+
+.magnamain table.listingInfo td button[type="submit"],
+.magnamain table.listingInfo td input[type="submit"] {
+    /*border: unset;*/
+    padding: 6px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 40px;
+    height: 30px;
+}
+
+.magnamain table.listingInfo td input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.magnamain table.listingInfo td input.bolder[type="submit"]:hover {
+    cursor: unset;
+    background: #e9e9ed;
+}
+
+.plist-th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+}
+.ml-plist .ml-plist-table .order-link a {
+    color: #000;
+}
+@media screen and (max-width: 1400px){
+    .ml-plist  table > * > tr > * {
+        font-size: 12px;
+    }
+
+    .ml-plist table.ml-plist-table > thead > tr > th {
+        padding-left: 8px;
+    }
+
+    .ml-plist table.ml-plist-table th.dark,
+     table.ml-plist-table > tbody > tr > * {
+        padding-left: 8px;
+    }
+
+    .ml-container-md {
+        width: 203px;
+    }
+
+}
+@media screen and (max-width: 1195px){
+   .plist-th {
+       align-items: flex-start;
+       flex-direction: column;
+   }
+
+    .plist-th div:nth-child(2){
+        width: 100%;
+    }
+    table.datagrid thead tr td,
+    div:not(.ml-tablescroll) .ml-plist table > * > tr > * {
+        font-size: 11px;
+    }
+
+    .ml-plist table.ml-plist-table > thead > tr > th {
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+
+    table.ml-plist-table > tbody > tr > * {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1390px){
+    .shopware6 table.datagrid.ml-plist-old-fix > tbody > tr > td {
+        padding: 8px 5px;
+    }
+
+    .shopware6 table.datagrid thead tr td,
+    .shopware6 table.datagrid.ml-plist-old-fix thead tr th,
+    .shopware6 table.datagrid.ml-plist-old-fix tbody tr td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1039px){
+    table.datagrid.ml-plist-old-fix > tbody > tr > td {
+        padding: 8px 5px;
+    }
+
+    table.magnaframe tbody td,
+    table.datagrid thead tr td,
+    table.datagrid.ml-plist-old-fix thead tr th,
+    table.datagrid.ml-plist-old-fix tbody tr td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .ml-container-wd {
+        width: 250px;
+    }
+}

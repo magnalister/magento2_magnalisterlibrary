@@ -1,0 +1,67 @@
+#ebay_prepare_match_form table.ebayPrice, #ebay_prepare_apply_form table.ebayPrice{border-style:none ;table-layout: auto;}
+#ebay_prepare_match_form table.ebayPrice td, #ebay_prepare_apply_form table.ebayPrice td, table.ebayPrice th{border:none;white-space: nowrap; padding-left: 0px;}
+#ebay_prepare_match_form table.ebayPrice th,#ebay_prepare_apply_form table.ebayPrice th{color:gray; padding-right: 0px;}
+#ebay_prepare_match_form table.ebayPrice tr.buynow div.optional>div,  #ebay_prepare_apply_form table.ebayPrice tr.buynow div.optional>div{display:inline;float:right}
+#ebay_prepare_match_form table.ebayPrice tr.buynow div.optional>span, #ebay_prepare_apply_form table.ebayPrice tr.buynow div.optional>span{display:inline;float:left;width:150px;margin-right:1em}
+
+#ebay_prepare_match_form #noteVariationsEnabled>div,  #ebay_prepare_apply_form #noteVariationsEnabled>div{margin:6px 0 0 11px;width:605px;padding:12px 19px;}
+#ebay_prepare_match_form .ebay-shipping, #ebay_prepare_apply_form .ebay-shipping{display:table;width:100%;}
+#ebay_prepare_match_form .ebay-shipping>* , #ebay_prepare_apply_form .ebay-shipping>*{display:table-row;}
+#ebay_prepare_match_form .ebay-shipping>*>*,#ebay_prepare_apply_form .ebay-shipping>*>*{display:table-cell;}
+#ebay_prepare_match_form .ebay-shipping>*>*.text,#ebay_prepare_apply_form .ebay-shipping>*>*.text{padding-left:2em;padding-right:1em;text-align: right}
+#ebay_prepare_match_form .shipping .profile,#ebay_prepare_apply_form .shipping .profile{padding:.5em;}
+#ebay_prepare_match_form .shipping .profile,#ebay_prepare_apply_form .shipping .profile div {display: inline-block; margin-top: 5px;}
+
+#ebay_prepare_match_form .ml-ebay-category-notification .successBox,#ebay_prepare_apply_form .ml-ebay-category-notification .successBox,
+#ebay_prepare_match_form .ml-ebay-category-notification .successBoxBlue,#ebay_prepare_apply_form .ml-ebay-category-notification .successBoxBlue,
+#ebay_prepare_match_form .ml-ebay-category-notification .noticeBox,#ebay_prepare_apply_form .ml-ebay-category-notification .noticeBox,
+#ebay_prepare_match_form .ml-ebay-category-notification .errorBox, #ebay_prepare_apply_form .ml-ebay-category-notification .errorBox {
+	margin: 0;
+	padding: 13px 19px;
+}
+#ebay_prepare_match_form table.ml-ebay-category-notification td,#ebay_prepare_apply_form table.ml-ebay-category-notification td,
+#ebay_prepare_match_form table.ml-ebay-category-notification th,#ebay_prepare_apply_form table.ml-ebay-category-notification th{
+	border-width: 0;
+	padding: 2px 4px;
+}
+#ebay_prepare_match_form table.ml-ebay-category-notification tr:first-child td,#ebay_prepare_apply_form table.ml-ebay-category-notification tr:first-child td,
+#ebay_prepare_match_form table.ml-ebay-category-notification tr:first-child th,#ebay_prepare_apply_form table.ml-ebay-category-notification tr:first-child th {
+	padding: 4px 4px 2px;
+}
+#ebay_prepare_match_form table.ml-ebay-category-notification tr:last-child td,#ebay_prepare_apply_form table.ml-ebay-category-notification tr:last-child td,
+#ebay_prepare_match_form table.ml-ebay-category-notification tr:last-child th,#ebay_prepare_apply_form table.ml-ebay-category-notification tr:last-child th{
+	padding: 2px 4px 4px;
+}
+#ebay_prepare_match_form table.ml-ebay-category-notification tr #noteProductRequired td,#ebay_prepare_apply_form table.ml-ebay-category-notification tr #noteProductRequired td,
+#ebay_prepare_match_form table.ml-ebay-category-notification tr #noteProductRequired th,#ebay_prepare_apply_form table.ml-ebay-category-notification tr #noteProductRequired th{
+	padding: 0;
+}
+#noteProductRequired div {
+	width: 605px;
+}
+#infobuttonProductRequired.gfxbutton.info {
+	margin: 7px 0 0 10px;
+}
+#infobuttonProductRequired.gfxbutton.info:hover {
+	border-color: transparent;
+	background-color: inherit;
+	cursor: pointer;
+}
+table.attributesTable #ebay_prepare_apply_form_field_pricecontainer_ajax td {
+	padding-top: 14px;
+}
+
+@media screen and (max-width: 1240px) {
+	#ebay_prepare_match_form .ebay-shipping > * > *, #ebay_prepare_apply_form .ebay-shipping > * > * {
+		display: block;
+	}
+	div.magnamain table {
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 900px) {
+	#ebay_prepare_match_form #noteVariationsEnabled > div, #ebay_prepare_apply_form #noteVariationsEnabled > div {
+		width: calc(100% - 50px);
+	}
+}
+

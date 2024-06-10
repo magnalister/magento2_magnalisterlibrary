@@ -1,0 +1,108 @@
+.ml-amazon-itemsearch {
+    padding-bottom: 5em;
+}
+.ml-amazon-itemsearch table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+.ml-amazon-itemsearch .content {
+    min-height: 90px;
+    padding-bottom: 1px;
+}
+.ml-amazon-itemsearch label {
+    display: block;
+    cursor: pointer;
+    text-align: left;
+}
+.ml-amazon-itemsearch label a {
+    color: #000;
+}
+.ml-amazon-itemsearch tr.notMatch {
+    font-style: italic;
+}
+.ml-amazon-itemsearch th {
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    padding: 0.5em 1.5em !important;
+    font-weight: bold;
+    white-space: nowrap;
+}
+table#tableWrap
+tbody
+tr
+td
+div.magnamain
+div.magnamain
+div#content.magnamain
+div.magnamain
+h1 {
+    border: none;
+}
+div.ml-plist.amazon
+table.ml-plist-table
+tbody#productlist-master-1.even
+tr.ml-amazon-itemsearch.child
+td
+div.search
+form
+input {
+    border-color: #dadada;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 17px;
+    padding: 12px 18px;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 3px;
+}
+.ml-plist.amazon div.actionBottom {
+    padding: 0px;
+}
+.ml-amazon-itemsearch th > input {
+    margin-right: 0.5em;
+}
+.ml-amazon-itemsearch .content td {
+    padding: 10px 1.5em !important;
+    border: 1px solid #dadada;
+}
+tbody.odd .ml-amazon-itemsearch th {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+tbody.odd .ml-amazon-itemsearch .content td {
+    border: 1px solid gray;
+}
+.ml-amazon-itemsearch .select {
+    width: 5%;
+    vertical-align: middle;
+    text-align: center;
+}
+.ml-amazon-itemsearch .title {
+    border-left: none;
+}
+.ml-amazon-itemsearch .category {
+    width: 20%;
+}
+.ml-amazon-itemsearch .price {
+    width: 5%;
+}
+.ml-amazon-itemsearch .asin {
+    width: 10%;
+}
+.ml-amazon-itemsearch td.price {
+    white-space: initial;
+}
+.ml-amazon-itemsearch td.asin {
+    white-space: initial;
+}
+.ml-amazon-itemsearch .search {
+    float: right;
+}

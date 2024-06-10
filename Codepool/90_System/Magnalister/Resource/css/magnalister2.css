@@ -1,0 +1,58 @@
+div.magnamain{
+    background-color:white;
+}
+div.magnamain table.datagrid a, div.magnamain form.categoryView table.list a  {
+/*    color:#E31A1C;*/
+    color: #000;
+}
+
+.hideChild:hover>tr.childToHide{
+    display: table-row;
+}
+.hideChild:hover>tbody.childToHide{
+    display: table-row;
+}
+
+.noButton{
+    background:none;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.noButton[disabled]{
+    color:inherit;
+    cursor: inherit;
+}
+.ml-right{
+    float:right;
+}
+.button[disabled]{
+    color:gray!important;
+}
+#inventory .nowrap > input[type='checkbox'] {
+    margin: 0 2px 0 0;
+}
+
+.optionalAttribute th .select2 {
+    width: 15em !important;
+}
+#attributesTableCustom th .select2,
+.optionalAttribute th .select2 {
+    font-size: 60%;
+    font-weight: normal;
+}
+td.input .select2 {
+    min-width: 25em !important;
+}
+@media screen and (max-width: 1360px) {
+    td.input .select2 {
+        min-width: 15em !important;
+    }
+}
+
+/*@media screen and (max-width: 999px) {
+    td.input .select2 {
+        min-width: 15em !important;
+    }
+}*/

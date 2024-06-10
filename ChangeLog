@@ -1,0 +1,56 @@
+/**
+ * 888888ba                 dP  .88888.                    dP                
+ * 88    `8b                88 d8'   `88                   88                
+ * 88aaaa8P' .d8888b. .d888b88 88        .d8888b. .d8888b. 88  .dP  .d8888b. 
+ * 88   `8b. 88ooood8 88'  `88 88   YP88 88ooood8 88'  `"" 88888"   88'  `88 
+ * 88     88 88.  ... 88.  .88 Y8.   .88 88.  ... 88.  ... 88  `8b. 88.  .88 
+ * dP     dP `88888P' `88888P8  `88888'  `88888P' `88888P' dP   `YP `88888P' 
+ *
+ *                          m a g n a l i s t e r
+ *                                      boost your Online-Shop
+ *
+ * -----------------------------------------------------------------------------
+ * $Id: ChangeLog 2382 2013-04-23 11:14:17Z tim.neumann $
+ *
+ * (c) 2010 - 2013 RedGecko GmbH -- http://www.redgecko.de
+ *     Released under the MIT License (Expat)
+ * -----------------------------------------------------------------------------
+ */
+
+= Change-Log =
+
+== 3.0.0 ==
+	=== Allgemein ===
+		* Überarbeitung der Darstellung des magnalister (4067)
+		* MySQLi Unterstützung (3887)
+		* Darstellung des magnalisters überarbeitet (3641)
+		* Asynchrones Laden der Varianten für die Produklisten (3578)
+		* Aufteilung für Shop-Preis und Marktplatz-Preis in einzelne Spalten (3540)
+		* Beta-Phase (bis 3500)
+
+	=== Bugfixes ===
+		* Optimierung der Produktlist Datenbank abfragen (3510 - 3512)
+
+	=== eBay ===
+		* Übermittung der Sendungsnummer (4063)
+		* Stückzahlbegrenzung (4008)
+		* Erhöhung des Timeouts zu eBay beim Lager und Preisabgleich (3697)
+
+	=== Amazon ===
+		* Man kann nun Artikel mit EAN = 0 vorbereiten (3941)
+		* Geschenknachricht und Geschenkpapier Unterstüztung (3722)
+
+	=== Magento ===
+		* Vorgabe von Administratoren Rollen (4028)
+
+	=== Prestashop ===
+		* Übermittlung der Zahlungsmethode beim Bestellimport (3760)
+		* Laden der verfügbaren Währungen aus dem Shopsystem (3533)
+
+	=== Shopware ===
+		* Kompatibilität zu Shopware 4.3 (4144)
+		* Unterstüzung der Freitext-Felder im eBay Produkt Template (3923)
+		* Unterstützung des Ports und Sockets für die Datenbankverbindung (3896)
+		* Firmen Name zu den Kunden informationen hinzugefügt (3724)
+		* Beta-Phase (bis 3600)
+

@@ -1,0 +1,24 @@
+#preparedQuerys li{
+    border:1px solid silver;opacity:.5;
+}
+#preparedQuerys li.active{
+    border-color:black;opacity: 1;
+}
+#preparedQuerys li.current{
+    font-style:italic;background:silver;
+}
+#preparedQuerys li dd{
+    margin-left:1em;
+}
+#sql_out{
+    border:1px solid #999;position:absolute;left:0;right:0; height: 500px;overflow-x:auto;
+}
+#sql_out_after{
+    height:510px
+}
+#magnaToolsSql table{width:100%}
+#magnaToolsSql td.predefinedQuerys{width:30%;border:1px solid gray;}
+#magnaToolsSql td.query{width:70%}
+#magnaToolsSql .button{position:absolute;top:1em;right:0}
+#magnaSql{width: 99%; height: 250px; resize: vertical; font-family: monospace;}
+#preparedQuerys{height:250px;overflow-y: scroll}

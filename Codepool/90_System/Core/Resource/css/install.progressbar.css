@@ -1,0 +1,184 @@
+/* --- fonts --- */
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700Bold";
+
+/* Additional CSS for blockUIProgress */
+div.progressBarContainer {
+	background: #e2dede none repeat scroll 0 0;
+	box-sizing: border-box;
+	height: 16px;
+	margin: 0 5.7% 49px;
+	max-width: 1330px;
+	position: relative;
+	text-align: center;
+	width: 87.2%;
+}
+div.progressBarContainer div.progressBar {
+	position: relative;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 0%;
+	transition-property: width;
+	background: #E31A1C;
+	color: #FFF;
+}
+div.progressBarContainer div.progressPercent {
+	position: relative;
+	font-weight: 600;
+	left: 0;
+	top: -16px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+}
+div.progressBar span.progressDebug {
+	line-height: 15px;
+	font-size: 0.8em;
+	position: absolute;
+	left: 0.5em;
+	top: 0.1em;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+
+/*********************************************************************************************************/
+
+body{
+	background: #F5F5F5;
+	margin: 0;
+	padding: 0;
+}
+#ml-loader-installation-wrap {
+    height: auto;
+    min-height: 83vh;
+    position: relative;
+    top: 0;
+}
+#ml-loader-installation {
+    background: #F5F5F5;
+    left: 50%;
+    max-width: 1330px;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%); 
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 80px 0 36px;
+    overflow: auto;
+}
+
+#ml-loader-installation h1 {
+	color: #e31a1c;
+	font-family: "Source Sans Pro", 'Open Sans', sans-serif;
+	font-weight: bolder;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 30px;
+	letter-spacing: -0.6px;
+	transform: scale(1, 1.2);
+	margin: 0 0 0 5.7%;
+}
+#ml-loader-installation p{
+	font-family: "Source Sans Pro", 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin: 0 6.3%;
+        line-height: initial;
+	color: #333334;
+}
+#ml-loader-installation a{
+	color: #e31a1c;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#ml-loader-wrap {
+	float: left;
+	width: 100%;
+	margin: 73px 0 69px;
+}
+#ml-loader-wrap img{
+	width: 100%;
+}
+#ml-loader-wrap p{
+	font-size: 14px;
+	margin: 0;
+}
+#ml-loader-wrap a{
+	display: block;
+	font-weight: normal;
+}
+#ml-loader-wrap .installationBox {
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+}
+
+#installationBox1 {
+	padding: 0 3% 0 6%;
+	width: 25%;
+}
+#installationBox2 {
+	padding: 0 2%;
+	width: 21%;
+}
+.lang_fr #installationBox2 {
+    padding: 0 4%;
+    width: 21%;
+}
+#installationBox3 {
+	padding: 0 3%;
+	width: 22.5%;
+}
+#installationBox4 {
+    padding: 0 8% 0 6%;
+    width: 31.5%;
+}
+@media screen and (min-width: 1367px){
+	body{
+		background: #ececec;
+	}
+}
+@media screen and ( max-width : 1024px ){
+	#ml-loader-installation p {
+		font-size: 13px;
+		margin: 0 5.7%;
+	}
+	#ml-loader-wrap p {
+		font-size: 13px;
+	}
+	#installationBox1 {
+		padding: 0 2% 0 5%;
+	}
+	#installationBox2 {
+		padding: 0 2%;
+	}
+	#installationBox3 {
+		padding: 0 2%;
+	}
+	#installationBox4 {
+	    padding: 0 7% 0 5%;
+	}
+
+}
+@media screen and ( max-width : 769px ){
+	#ml-loader-installation p,
+	#ml-loader-wrap p{
+			font-size: 12.5px;
+	}
+}
+#magnaInstaller #ml-loader-installation-wrap #ml-loader-installation .viaAjax{
+    margin: 0 auto;
+    width: 80%;
+}
+#ml-loader-installation-wrap #ml-loader-installation .ml-js-modalPushMessages.ml-js-mlMessages {
+    margin-left: 5.7%;
+    margin-right: 5.7%;
+}

@@ -1,0 +1,66 @@
+.ml-shippinglabel-form input[type="text"].ml-shippinglabel-size {
+    height: 37px;
+    width: 35px;
+    text-align: center;
+}
+.ml-plist .ml-shippinglabel-form-upload tr td {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.ml-plist .ml-shippinglabel-form-upload > tr > td > table > tbody > tr > td > table > tbody > tr > td {
+    padding-right: 10px;
+}
+.ml-plist .ml-shippinglabel-form-upload tbody tr td label{
+    padding-right: 0.5em;
+}
+
+.ml-plist table.ml-plist-table th.dark {
+    background: #a6a6a6;
+    padding: 1.2em 1.5em;
+}
+
+.ml-plist table.ml-plist-table th.dark > div:first-of-type {
+    font-size: 1.2em;
+}
+
+.ml-plist table.ml-plist-table .cell-sent,
+.ml-plist table.ml-plist-table .cell-quantity {
+    text-align: center;
+}
+
+.ml-plist .cell-price,
+.ml-plist .cell-currentstatus,
+.ml-plist .cell-shippingcost,
+.ml-plist .cell-trackingcode {
+    text-align:right;
+}
+
+.magnamain a.mlbtn.backbtn {
+    line-height: 19px;
+    margin: 0 5px 0 0;
+    padding: 2px 35px;
+}
+
+.ml-plist .actionBottom {
+    padding: 25px 3px;
+}
+.ml-hidden-detail{
+    position:relative;
+}
+.ml-hidden-detail div{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    color: #555;
+    white-space: nowrap;
+    left: 0;
+    display: none;
+    line-height: 1.5em;
+    padding: 7px 5px 8px;
+    position: absolute;
+    right: 15px;
+    z-index: 10;
+}
+.ml-hidden-detail:hover div{
+    display: table;
+}

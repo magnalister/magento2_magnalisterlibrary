@@ -1,0 +1,235 @@
+body.magna div.magna div#content #stats .dashed {
+    left:20px;border-bottom:1px dashed #BEBEBE;position:absolute;width:100%;
+}
+body.magna div.magna div#content #stats .stat {
+    padding: 6px 90px 15px 25px;
+}
+body.magna div.magna div#content #stats .dashed.firsth{
+    /*border-bottom:2px solid #000;*/
+}
+body.magna div.magna div#content #stats .leftline{
+    /* border-left: 2px solid #000;position:absolute;height: 145px;top:48px;left:31px; */
+}
+body.magna div.magna div#content #stats .barscontainer {
+    position:relative; height:140px;margin:10px;padding-left:20px;
+}
+body.magna div.magna div#content #stats .orderbarout {
+    border:1px solid ;margin:0 10px;display: block;
+}
+body.magna div.magna div#content #stats .orderbarout span{
+    position:absolute;z-index: 100;font-size: 11px;color:#000
+}
+body.magna div.magna div#content #stats .orderbar {
+    width:19px; opacity:.7;filter:alpha(opacity=70);
+}
+body.magna div.magna div#content #stats .columncontainer{
+    float:left;position:relative;z-index:99;width:40px;border-right:1px dashed #BEBEBE; height:140px;
+}
+body.magna div.magna div#content #stats .report_blank{border-width:0}
+#stats h3 {
+    text-align:center;
+    font-weight: normal;
+}
+body.magna div.magna div#content #stats .report_blank, body.magna div.magna div#content #stats .orderbarout span {
+    text-align:center;
+    width: 45%;
+}
+body.magna div.magna div#content #stats .vertical_lable{
+    width:17px;
+    height:140px;
+    font-size:9px;
+    position:absolute;
+    left:-4px;
+    text-align:right;
+    line-height: normal;
+}
+body.magna div.magna div#content #stats .horizental_lable{
+    position:absolute;
+    top:145px;
+    font-size:10px;
+    white-space: nowrap;
+}
+
+body.magna div.magna div#content #stats .horizental_lable.transform{
+    transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-20deg);  /* Saf3.1+, Chrome */
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.5, M12=0.9, M21=-0.707, M22=0.707); /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=1.2, M12=0.2, M21=-0.2, M22=1.2)"; /* IE8 */
+}
+
+.report_shop{background-color:#D2E87A;}/* rgb(203, 227, 107);}*/
+.report_amazon {
+    background-color: #EAA26B
+}
+
+.report_cdiscount {
+    background-color: #0eeaff;
+}
+
+.report_check24 {
+    background-color: #00abd8;
+}
+
+.report_etsy {
+    background-color: #9575cd;
+}
+
+.report_hood {
+    background-color: #588f27;
+}
+
+.report_otto {
+    background-color: #fff176;
+}
+
+.report_metro {
+    background-color: #2962ff;
+}
+
+.report_ricardo {
+    background-color: #ff6600;
+}
+.report_yatego{background-color: rgb(100, 140, 219);}
+
+.report_guenstiger {
+    background-color: #6A9AF2;
+}
+.report_ps{background-color: rgb(114, 114, 114);}
+
+.report_ebay {
+    background-color: #E24F4F;
+}
+
+.report_hitmeister {
+    background-color: #d90000;
+}
+.report_tradoria{background-color: rgb(101, 196, 150);}
+.report_kelkoo{background-color: rgb(219, 103, 82);}
+.report_daparto{background-color: rgb(66, 149, 203);}
+.report_laary{background-color: rgb(220, 170, 240);}
+.report_black{background-color: rgb(232, 148, 80);}
+
+.report_border_shop{color:#C4CEA0;}/* rgb(203, 227, 107);}*/
+.report_border_amazon{color:#CD9160;}/* rgb(228, 163, 20);}*/
+.report_border_yatego{color: rgb(100, 140, 219);}
+.report_border_guenstiger{color: #5F79AF;}/*rgb(21, 26, 123)*/
+.report_border_ps{color: rgb(114, 114, 114);}
+.report_border_ebay{color:#AD3031;}/* rgb(223, 55, 56);}*/
+.report_border_hitmeister{color: rgb(232, 148, 80);}
+.report_border_kelkoo{color: rgb(219, 103, 82);}
+.report_border_laary{color: rgb(220, 170, 240);}
+.report_border_black{color: rgb(232, 148, 80);}
+
+.report_border_cdiscount {
+    color: #0eeaff;
+}
+
+.report_border_check24 {
+    color: #00abd8;
+}
+
+.report_border_etsy {
+    color: #9575cd;
+}
+
+.report_border_hood {
+    color: #588f27;
+}
+
+.report_border_otto {
+    color: #fff176;
+}
+
+.report_border_metro {
+    color: #2962ff;
+}
+
+.report_border_ricardo {
+    color: #ff6600;
+}
+
+body.magna div.magna div#content #stats .legendcolor{
+    width:5px;height:5px;border: 1px solid ;
+}
+body.magna div.magna div#content #stats .legendcolor div {
+    height: 100%;
+    width: 100%;
+}
+body.magna div.magna div#content #stats li.legendcontainer {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    float:left;
+    list-style: none;
+    padding:0;
+}
+body.magna div.magna div#content #stats .legendcontainer div{
+    margin:auto;
+}
+body.magna div.magna div#content #stats .reportlegend {
+    clear: both;
+    float: none;
+    height: 17px;
+    position: relative;
+    text-align: center;
+    width: 825px;
+}
+body.magna div.magna div#content #stats .verticallable{
+    top:100px;
+    position:absolute;
+    transform: rotate(-90deg);  /* FF3.5+ */
+    -o-transform: rotate(-90deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; /* IE8 */
+
+}
+
+body.magna div.magna div#content #stats .fl span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body.magna div.magna div#content #stats .left {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    height: 30px;
+    width: 150px;
+    margin-left: -159px;
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"; /* IE8 */
+}
+body.magna div.magna div#content #stats .sublegend{
+    border: 1px solid;
+    float: right;
+    margin-left: 15px;
+    padding: 2px;
+    width: 50px;
+    line-height: normal;
+    position: absolute;
+    right: -85px;
+}
+body.magna div.magna div#content #stats .sublegend .legendcolor{
+    float:left;margin-top:1px
+}
+
+body.magna div.magna div#content #stats .sublegend .legendlabel{
+    font-size:9px;
+    line-height:9px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+body.magna div.magna div#content #stats ul{
+    padding: 0;margin: 0;
+}

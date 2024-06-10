@@ -1,0 +1,12 @@
+#hood_prepare_form table.hoodPrice{border-style:none ;table-layout: auto;}
+#hood_prepare_form table.hoodPrice td, table.hoodPrice th{border:none;white-space: nowrap}
+#hood_prepare_form table.hoodPrice th{color:gray;}
+#hood_prepare_form table.hoodPrice tr.buynow div.optional>div{display:inline;float:right}
+#hood_prepare_form table.hoodPrice tr.buynow div.optional>span{display:inline;float:left;width:150px;margin-right:1em}
+
+#hood_prepare_form #noteVariationsEnabled>div{margin:0;}
+#hood_prepare_form .hood-shipping{display:table;width:100%;}
+#hood_prepare_form .hood-shipping>*{display:table-row;}
+#hood_prepare_form .hood-shipping>*>*{display:table-cell;}
+#hood_prepare_form .hood-shipping>*>*.text{padding-left:2em;padding-right:1em;text-align: right}
+#hood_prepare_form .shipping .profile{padding:.5em;}

@@ -1,0 +1,106 @@
+/*
+ * 888888ba                 dP  .88888.                    dP
+ * 88    `8b                88 d8'   `88                   88
+ * 88aaaa8P' .d8888b. .d888b88 88        .d8888b. .d8888b. 88  .dP  .d8888b.
+ * 88   `8b. 88ooood8 88'  `88 88   YP88 88ooood8 88'  `"" 88888"   88'  `88
+ * 88     88 88.  ... 88.  .88 Y8.   .88 88.  ... 88.  ... 88  `8b. 88.  .88
+ * dP     dP `88888P' `88888P8  `88888'  `88888P' `88888P' dP   `YP `88888P'
+ *
+ *                          m a g n a l i s t e r
+ *                                      boost your Online-Shop
+ *
+ * -----------------------------------------------------------------------------
+ * (c) 2010 - 2021 RedGecko GmbH -- http://www.redgecko.de
+ *     Released under the MIT License (Expat)
+ * -----------------------------------------------------------------------------
+ */
+
+/*.magnalisterForm tr th {
+    border-right: none;
+}*/
+.magnalisterForm tr.mlexpert th label {
+    color: #004090;
+    font-style: italic;
+}
+.magnalisterForm tr td.mlhelp {
+    width: 16px;
+    min-width: 16px;
+    border-left: none;
+}
+.magnalisterForm .mlhelp a {
+    background: url("../images/information.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: table-cell;
+    height: 16px;
+    vertical-align: top;
+    width: 16px;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 2px;
+}
+.magnalisterForm .mlhidden {
+    display: none;
+}
+.magnalisterForm .mlMultipleSelect {
+    width: 100%;
+    margin-top: 6px;
+}
+.magnalisterForm .ml-force-hidden {
+    display: none !important;
+}
+
+.magnalisterForm .ml-js-not-editable td.input {
+    opacity: 0.2;
+}
+
+.magnalisterForm .mlWarning span {
+    background: url("../images/info_tooltip.png") no-repeat scroll 0 3px
+    transparent;
+    height: 19px;
+    width: 16px;
+    text-align: right;
+}
+
+
+.magnalisterForm .mlCollapse {
+    border: none;
+    background: transparent;
+}
+
+.magnalisterForm .mlCollapse span {
+    background: url("../images/collapse_arrow.png") no-repeat scroll 0 0px
+    transparent;
+    height: 22px;
+    width: 25px;
+    margin-top: 5px;
+    float: right;
+}
+
+.magnalisterForm table.tableHeadCarrierMatching th {
+    border-right: 1px solid #dadada;
+}
+
+.magnalisterForm
+div.ml-duplicatematchingoption
+div.duplicate
+> div
+> span
+button.mlbtn.fullfont {
+    margin-top: 26px;
+}
+
+.magnalisterForm .borderCollapseInitial {
+    border-collapse: initial;
+}
+
+.ml-disableElement {
+    z-index: 1000 !important;
+    background-color: rgba(102, 102, 102, 0.5) !important;
+    opacity: 0.7 !important;
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+.ml-transparentBackground {
+    background-color: transparent !important;
+}

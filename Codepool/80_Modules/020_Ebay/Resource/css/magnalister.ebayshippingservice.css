@@ -1,0 +1,6 @@
+#ebay_config_prepare #noteVariationsEnabled>div , #ebay_prepare_form #noteVariationsEnabled>div{margin:0;}
+#ebay_config_prepare .ebay-shipping , #ebay_prepare_form .ebay-shipping{display:table;width:100%;}
+#ebay_config_prepare .ebay-shipping>* , #ebay_prepare_form .ebay-shipping>*{display:table-row;}
+#ebay_config_prepare .ebay-shipping>*>* , #ebay_prepare_form .ebay-shipping>*>*{display:table-cell;}
+#ebay_config_prepare .ebay-shipping>*>*.text , #ebay_prepare_form .ebay-shipping>*>*.text{padding-left:2em;padding-right:1em;text-align: right}
+#ebay_config_prepare .shipping .profile ,#ebay_prepare_form .shipping .profile{padding:.5em;}

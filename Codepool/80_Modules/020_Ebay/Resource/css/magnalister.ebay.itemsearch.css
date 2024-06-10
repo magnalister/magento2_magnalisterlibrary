@@ -1,0 +1,27 @@
+
+
+.ml-ebay-itemsearch{padding-bottom: 5em;}
+.ml-ebay-itemsearch table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom: 1em;
+}
+.ml-ebay-itemsearch .content{min-height: 90px}
+.ml-ebay-itemsearch label{display:block;cursor:pointer; text-align: left;}
+.ml-ebay-itemsearch tr.notMatch{font-style: italic}
+.ml-ebay-itemsearch th{border-left:1px solid silver;border-right: 1px solid silver;padding:.5em!important;font-weight: bold;white-space: nowrap}
+.ml-ebay-itemsearch th>input{margin-right:.5em;}
+.ml-ebay-itemsearch .content td{padding:.35em!important;border:1px solid silver}
+tbody.odd .ml-ebay-itemsearch th{border-left:1px solid gray;border-right: 1px solid gray;}
+tbody.odd .ml-ebay-itemsearch .content td{border:1px solid gray}
+.ml-ebay-itemsearch .select{width:5%;vertical-align: middle;text-align: center;}
+.ml-ebay-itemsearch .title{border-left: none}
+.ml-ebay-itemsearch .category{width:20%}
+.ml-ebay-itemsearch .price{width:5%;}
+.ml-ebay-itemsearch .asin{width:10%;}
+.ml-ebay-itemsearch td.price{white-space: initial;}
+.ml-ebay-itemsearch td.asin{white-space: initial;}
+
+
+.ml-ebay-itemsearch .search{float:right;}
+

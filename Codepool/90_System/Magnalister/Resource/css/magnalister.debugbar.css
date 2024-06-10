@@ -1,0 +1,141 @@
+/*
+ * 888888ba                 dP  .88888.                    dP
+ * 88    `8b                88 d8'   `88                   88
+ * 88aaaa8P' .d8888b. .d888b88 88        .d8888b. .d8888b. 88  .dP  .d8888b.
+ * 88   `8b. 88ooood8 88'  `88 88   YP88 88ooood8 88'  `"" 88888"   88'  `88
+ * 88     88 88.  ... 88.  .88 Y8.   .88 88.  ... 88.  ... 88  `8b. 88.  .88
+ * dP     dP `88888P' `88888P8  `88888'  `88888P' `88888P' dP   `YP `88888P'
+ *
+ *                          m a g n a l i s t e r
+ *                                      boost your Online-Shop
+ *
+ * -----------------------------------------------------------------------------
+ * (c) 2010 - 2024 RedGecko GmbH -- http://www.redgecko.de
+ *     Released under the MIT License (Expat)
+ * -----------------------------------------------------------------------------
+ */
+#devBar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    opacity:.4;
+    z-index: 9999999;
+    background:transparent;
+    min-height: 0;
+    display:block;
+    width: 12px;
+    padding:0;
+    margin:0;
+}
+
+#devBar:hover, #devBar.static{
+    opacity:1;
+    width:auto;
+}
+#devBar:hover>.devContent, #devBar.static>.devContent{
+    display:inherit;
+}
+#devBar:hover>.magnaTabs2>ul, #devBar.static>.magnaTabs2>ul{
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 1em;
+} 
+#devBar>.magnaTabs2>ul{
+    height: 53px;
+    background:silver;
+    padding-top:4px;
+    margin-top:0;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-right:0;
+}
+
+#devBar .magnaTabs2 ul > li > a {
+    background-color: white;
+}
+#devBar .magnaTabs2{
+    margin-bottom: 0;
+}
+#devBar #debug-ajax>.magnaTabs2{
+    overflow-x: auto;
+}
+#devBar #debug-ajax>.magnaTabs2>ul>li>a>sup{
+    color:gray;
+    margin-left: 5px;
+    padding: 3px;
+    cursor: crosshair;
+}
+#devBar .devContent pre{
+    white-space: pre-wrap;
+}
+#devBar>.devContent{
+    display:none;
+    background:white;
+    overflow: auto;
+    resize: vertical;
+    max-height:200px;
+    box-shadow: 10px 10px 25px gray;
+}
+#devBar.static>.devContent{
+    max-height: none;
+    height:200px;
+}
+#devBar .devContent{
+    border-left:1px solid #AEAEAE;
+    border-right:1px solid #AEAEAE;
+    border-bottom:1px solid #AEAEAE;
+}
+#devBar .devContent>*{
+    min-height: 150px;
+    overflow:auto;
+    display:none;
+    padding:.5em;
+}
+#devBar>.devContent>*>#debug-ajax td>*{width:90%;}
+#devBar>.devContent>*>#debug-ajax{
+   height:100%;
+}
+#devBar>.devContent>*>#debug-ajax>.magnamain{
+   height:100%;
+}
+#devBar>.devContent>*>#debug-ajax>.magnamain .devContent{
+    position: absolute!important;top:40px;left:0;right:0;bottom:0;overflow:auto;
+}
+
+#devBar textarea{
+    resize:vertical;
+}
+
+#devBar table.ml-css-apirequests {
+	width: 100%;
+}
+#devBar table.ml-css-apirequests th,
+#devBar table.ml-css-apirequests td {
+	padding: 3px 6px;
+}
+#devBar table.ml-css-apirequests tr.ml-css-head th,
+#devBar table.ml-css-apirequests tr.ml-css-head td {
+	background: rgba(0, 0, 0, 0.2);
+}
+#devBar table.ml-css-apirequests tr.ml-css-row:nth-child(odd) th,
+#devBar table.ml-css-apirequests tr.ml-css-row:nth-child(odd) td {
+	background: rgba(0, 0, 0, 0.05);
+}
+#devBar table.ml-css-apirequests tr.ml-css-row.ml-css-error th,
+#devBar table.ml-css-apirequests tr.ml-css-row.ml-css-error td {
+	background: rgba(255, 0, 0, 0.1);
+}
+#devBar table.ml-css-apirequests th.ml-css-time,
+#devBar table.ml-css-apirequests th.ml-css-action,
+#devBar table.ml-css-apirequests th.ml-css-status,
+#devBar table.ml-css-apirequests td.ml-css-time,
+#devBar table.ml-css-apirequests td.ml-css-action,
+#devBar table.ml-css-apirequests td.ml-css-status {
+	white-space: nowrap;
+	width: 1%;
+}
+#devBar table.ml-css-apirequests td textarea {
+	width: 100%;
+	resize: vertical;
+}

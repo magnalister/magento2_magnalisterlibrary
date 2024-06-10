@@ -1,0 +1,128 @@
+.magnalisterForm div.duplicate {
+    display: table;
+    width: 100%;
+}
+.magnalisterForm div.duplicate > div {
+    border-style: solid dashed;
+    border-color: #dadada #dadada;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+.magnalisterForm div.duplicate > div > * {
+    display: table-cell;
+    vertical-align: top;
+    padding: 14px;
+}
+
+.magnalisterForm #amazon_config_prepare_fieldset_b2b div.duplicate > div > div {
+    padding: 0px;
+}
+
+#amazon_config_shippinglabel_fieldset_shippinglabel tr:nth-child(4) td.input div.duplicate > div,
+#otto_config_order_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate > div {
+    border: unset;
+}
+
+#amazon_config_shippinglabel_fieldset_shippinglabel tr:nth-child(4) td.input div.duplicate > div:not(:last-child),
+#otto_config_order_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate > div:not(:last-child) {
+    border-bottom: 1px solid #dadada;
+}
+
+#amazon_config_shippinglabel_fieldset_shippinglabel tr:nth-child(4) td.input div.duplicate > div > div,
+#otto_config_order_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate > div > div {
+    padding: 0px;
+}
+
+#amazon_config_shippinglabel_fieldset_shippinglabel tr:nth-child(4) td.input,
+#otto_config_order_fieldset_orderstatus tr:nth-child(5) td.input {
+    padding-top: 0px;
+}
+
+.amazon_config_shippinglabel_field_shippinglabel_default_dimension > div > table > tbody > tr > td:first-child,
+.otto_config_order_field_orderstatus_shippedaddress > div > table > tbody > tr > td:first-child {
+    padding-left: 0px;
+}
+
+
+
+.magnalisterForm #amazon_config_orderimport_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate div {
+   /* width: 100%;*/
+    padding-left: 0px;
+}
+input.ml-js-form-duplicate-radiogroup{
+    margin: -1px 3px 0px 5px;
+}
+/*.nobootstap .magnalisterForm div.duplicate > div > span,*/
+.magnalisterForm div.duplicate > div > span {
+    width: auto;
+    white-space: nowrap;
+    position: absolute;
+    right: 0;
+}
+div#content .magnalisterForm div.duplicate > div > span .button {
+    font-size: 1.5em;
+    margin: 0;
+}
+.magnalisterForm div.amazon_config_prepare_field_shipping_template div {
+    padding-left: 19px;
+}
+.magnalisterForm div.duplicate > div:not(:last-child) {
+    border-bottom: unset;
+}
+/*div.magnamain table .js-field th,
+div.magnamain table .js-field th label,*/
+div.magnamain table .js-field td label
+{
+    font-weight: normal;
+    margin-right: 15px;
+}
+div.magnamain table .js-field td label p
+{
+    font-weight: 700;
+}
+#amazon_config_bopis_fieldset_products tr:nth-child(2) td.input div.duplicate > div,
+#amazon_config_prepare_fieldset_b2b tr:nth-child(4) td.input div.duplicate > div,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(3) td.input div.duplicate > div,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(4) td.input div.duplicate > div,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate > div,
+#hood_config_prepare_fieldset_shipping tr:nth-child(2) td.input div.duplicate > div,
+#hood_config_prepare_fieldset_shipping tr:nth-child(3) td.input div.duplicate > div {
+    border: unset;
+    border-bottom: 1px solid #dadada;
+}
+
+#hood_config_prepare_fieldset_shipping tr:nth-child(2) td.input div.duplicate > div:first-child {
+    border-top: 1px solid #dadada;
+}
+
+#amazon_config_prepare_fieldset_b2b tr:nth-child(4) td.input div.duplicate > div:last-child,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(3) td.input div.duplicate > div:last-child,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(4) td.input div.duplicate > div:last-child,
+#amazon_config_orderimport_fieldset_orderstatus tr:nth-child(5) td.input div.duplicate > div:last-child,
+#hood_config_prepare_fieldset_shipping tr:nth-child(2) td.input div.duplicate > div:last-child,
+#hood_config_prepare_fieldset_shipping tr:nth-child(3) td.input div.duplicate > div:last-child {
+    border-bottom: none;
+}
+
+#amazon_config_prepare_fieldset_b2b tr:nth-child(4) td.input div.duplicate > div > div {
+    width: 50%;
+}
+
+#amazon_config_orderimport_fieldset_orderstatus tr td.input div.duplicate > div > div {
+    width: 48.5%;
+}
+
+@media screen and (max-width: 1383px) {
+    table tbody#amazon_config_prepare_fieldset_shippingtemplate tr:nth-child(2) div.duplicate div {
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    div.magnamain table .js-field td label
+    {
+        white-space: initial;
+    }
+}

@@ -1,0 +1,39 @@
+.ml-translate-toolbar,
+.ml-translate-toolbar-wrapper .ml-translate-toolbar {
+    display: none;
+}
+.missing_translation {
+    border: 1px solid #AFC8E7 !important;
+    background: #AFC8E7 !important;
+}
+.ml-translate-toolbar a,
+.ml-translate-toolbar-wrapper .ml-translate-toolbar a,
+td.mlhelp .ml-translate-toolbar a,
+body.magna div.magnaTabs2 ul li.ml-translate-toolbar-wrapper a.abutton {
+    background: url("../images/pencil.png") no-repeat scroll 0 0 transparent !important;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding: 0 !important;
+    border: none;
+    box-shadow: none;
+}
+.ml-translate-toolbar-wrapper:hover .ml-translate-toolbar,
+.globalTranslate td.mlhelp .ml-translate-toolbar {
+    display: inline-block;
+}
+table.globalTranslate th,
+table.globalTranslate td {
+    border-style: solid;
+}
+table.globalTranslate tr td.mlhelp {
+    width: 16px;
+    min-width: 16px;
+}
+table.globalTranslate tr.headline>* {
+    background: #AFC8E7;
+    cursor: pointer;
+}
+table.globalTranslate tr.js-field {
+    display: none;
+}

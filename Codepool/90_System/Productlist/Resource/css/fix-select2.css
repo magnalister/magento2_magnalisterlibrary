@@ -1,0 +1,65 @@
+body.magna .ml-searchable-select {
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+[id^="attributeMatchedTable_ebay_prepare_apply_form_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_amazon_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_amazon_prepare_apply_form_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_ebay_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_hitmeister_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_hitmeister_prepare_apply_form_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_etsy_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_etsy_prepare_apply_form_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_metro_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_metro_prepare_apply_form_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_otto_prepare_variations_field"] .ml-searchable-select,
+[id^="attributeMatchedTable_otto_prepare_apply_form_field"] .ml-searchable-select {
+  margin-left: 0 !important;
+  width: calc(100% - 19px) !important;
+}
+
+body.magna .select2-container--default .select2-selection--single {
+  border-radius: 0;
+}
+
+body.magna .select2-dropdown {
+  border-radius: 0;
+}
+
+body.magna
+.select2-container--default
+.select2-selection--single
+.select2-selection__rendered {
+  line-height: 41px;
+
+}
+
+body.magna .select2-container .select2-selection--single {
+  line-height: 23px;
+  height: 43px;
+  background: url("../images/dropdown_arrow.png") no-repeat;
+  background-position: calc(100% - 13px) 15px;
+}
+
+body.magna .select2-container {
+  margin-top: -5px;
+}
+
+body.magna .select2-container--open .select2-dropdown--above,
+body.magna .select2-container--open .select2-dropdown--below {
+  margin-top: 5px;
+}
+
+body.magna
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow {
+  height: 23px;
+}
+
+

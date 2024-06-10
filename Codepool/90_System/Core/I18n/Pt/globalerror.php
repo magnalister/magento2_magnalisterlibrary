@@ -1,0 +1,4 @@
+<?php
+
+
+MLI18n::gi()->ML_ERROR_GLOBAL = 'ML_ERROR_GLOBAL';
